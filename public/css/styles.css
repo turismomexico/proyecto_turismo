@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('https://img.freepik.com/foto-gratis/textura-suelo-piedra_1194-9047.jpg?w=2000');
+}
+
+h1 {
+    color: #ff9d9d;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.municipios-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.municipio-card {
+    border: 1px solid #333;
+    padding: 10px;
+    width: 300px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.municipio-card:hover {
+    transform: scale(1.05);
+}
+
+.municipio-card td {
+    padding: 12px;
+}
+
+.municipio-card img {
+    margin-top: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: #00a8e8;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
