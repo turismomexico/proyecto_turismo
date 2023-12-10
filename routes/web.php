@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/login', function () {
    
     return view('welcome');
 });
@@ -32,7 +32,7 @@ Route::get('/home_', function () {
 
 
 
-Route::get('/municipios', function () {
+Route::get('/', function () {
     $municipios = DB::select('SELECT * FROM Municipios');
     return view('municipios_index', ['municipios' => $municipios]);
 });
